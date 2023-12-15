@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jeevan Thapa"
-  avatar           : "jeevan_latest.png"
-  bio              : "Computer Science Ph.D. Student"
+  name             : "Deepak Kandel"
+  avatar           : "profile.png"
+  bio              : "Imaging Science Ph.D. Student"
   location         : "Rochester, New York"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"https://yourfullgooglescholarurl.com"
-  email            : "jt4812@g.rit.com"
+  email            : "dk6012@rit.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "thapa-jeevan"
+  github           : "kandeldeepak46"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # https://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "thapa_jeevan_sm"
+  twitter          : "kandeldeepak46"
   vine             :
   weibo            :
   xing             :
