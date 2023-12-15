@@ -5,8 +5,6 @@ permalink: /experience/
 author_profile: true
 ---
 
-# Experience
-
 ## Graduate Research Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
 
@@ -16,7 +14,7 @@ author_profile: true
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
 
 - **Period:** Aug 2022 — May 2023
-- **Courses:**
+- **Assisted Courses:**
   - Probability & Statistics with Python
   - Fundamentals of Imaging Science
 
