@@ -19,7 +19,7 @@ author_profile: true
   - Fundamentals of Imaging Science
 
 ## Machine Learning Engineer
-**Evolve Kathmandu, Bagmati, Nepal**
+**Evolve, Kathmandu, Bagmati, Nepal**
 
 - **Period:** Dec 2020 — July 2022
 - **Responsibilities:**
@@ -28,7 +28,7 @@ author_profile: true
   - Developed in-house outlet localization and Automatic Route Generator (ARC) API based on geo-location for optimized distribution of goods
 
 ## Data Scientist
-**Docsumo Kathmandu, Bagmati, Nepal**
+**Docsumo, Kathmandu, Bagmati, Nepal**
 
 - **Period:** Mar 2020 — Dec 2020
 - **Responsibilities:**
