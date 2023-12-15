@@ -5,24 +5,36 @@ permalink: /experience/
 author_profile: true
 ---
 
-### Graduate Research Assistant  
-  * Rochester Institute of Technology, Rochester, U.S.A (Aug 2022 — Present) 
-  * Researching in the field of Probabilistic Machine Learning at Lab of Use-inspired Computational Intelligence
+# Experience
 
-### Machine Learning Engineer
-  * Fusemachines, Kathmandu, Nepal (Sep 2019 — Jun 2022)
-  * **Industry Projects** - led and collaborated in designing the project architecture and implementing and deploying
-  deep learning models for four projects 
-  * **fuse|ai Course creation** - collaborated in the design and creation of course materials (reading material, quiz,
-  assignment, project) for Computer Vision, Natural Language Processing (BERT), and Time Series Analysis
-  * involved in taking interviews and trainings for new hires, and advisor for computer vision projects
+## Graduate Research Assistant
+**Rochester Institute of Technology, Rochester, NY, U.S.A.**
 
-### "Mathematics for AI" Instructor 
-  * fuseAI, Herald College, Kathmandu, Nepal (Jan 2021 — Jun 2021)  
-  * taught an undergraduate course, covering Linear Algebra, Calculus, Probability and Statistics and Information Theory with several assignments and projects
+- **Role:** Experimenting with variational inference for lifelong/continual learning
 
-### AI Intern
-  * Leapfrog Technology, Kathmandu, Nepal (Jan 2019 to Jun 2019)
-  * trained on face recognition system with face detection, point-based face-alignment, face-embedding with Siamese network,
-  and KNN classifier on top
-  * experimented with multiple standard CNN architecture for license plate localization with different losses
+## Graduate Teaching Assistant
+**Rochester Institute of Technology, Rochester, NY, U.S.A.**
+
+- **Period:** Aug 2022 — May 2023
+- **Courses:**
+  - Probability & Statistics with Python
+  - Fundamentals of Imaging Science
+
+## Machine Learning Engineer
+**Evolve Kathmandu, Bagmati, Nepal**
+
+- **Period:** Dec 2020 — July 2022
+- **Responsibilities:**
+  - Designed and developed a Multi-Store-Multi-Item demand quantity prediction system using ARIMA, prophet, Temporal Fusion Transformer, and LightGBM
+  - Developed the product recommendation engine for FMCG products using Autoencoders and LightFM
+  - Developed in-house outlet localization and Automatic Route Generator (ARC) API based on geo-location for optimized distribution of goods
+
+## Data Scientist
+**Docsumo Kathmandu, Bagmati, Nepal**
+
+- **Period:** Mar 2020 — Dec 2020
+- **Responsibilities:**
+  - Information retrieval from tax, invoice, and bill documents and digitization of non-digital PDF (bank statements, W2, & W9) forms using advanced OCR techniques
+  - Contributed to face recognition system for verification of documents with Indian driving license [KYC for banks and Insurance companies]
+  - Improving the image quality: skewness detection, correction, and enhancements with computer vision and image processing
+  - Developed and deployed the AI applications in Google Cloud Platforms
