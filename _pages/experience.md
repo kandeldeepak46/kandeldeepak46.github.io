@@ -8,7 +8,7 @@ author_profile: true
 ## Graduate Research Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
 
-- **Role:** Experimenting with variational inference for lifelong/continual learning
+- **Role:** Experimenting with variational inference (VI) for lifelong/continual learning
 
 ## Graduate Teaching Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
