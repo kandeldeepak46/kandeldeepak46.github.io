@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. student at Chester F. Carlson Center For Imaging Science, Rochester Institute of Technology, researching in the field of lifelong/continual learning with Dr. [Dimah Dera](https://www.rit.edu/directory/dxdcis-dimah-dera) at [Multidisciplinary Vision Research Laboratory](https://www.rit.edu/science/multidisciplinary-vision-research-laboratory)  
+I am second year Ph.D. student at Chester F. Carlson Center For Imaging Science, Rochester Institute of Technology, researching in the field of lifelong/continual learning with Dr. [Dimah Dera](https://www.rit.edu/directory/dxdcis-dimah-dera) at [Multidisciplinary Vision Research Laboratory](https://www.rit.edu/science/multidisciplinary-vision-research-laboratory)  
 
 ### Research Interests
 * **Machine Learning**: Statistical Machine Learning, Variational Inference, Continual Learning
