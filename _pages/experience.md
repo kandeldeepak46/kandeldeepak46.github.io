@@ -8,7 +8,10 @@ author_profile: true
 ## Graduate Research Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
 
-- **Role:** Experimenting with variational inference (VI) for lifelong/continual learning
+- Developing static and temporal hyperspectral image analysis algorithms using masked autoencoders (MAEs) for large-scale foundation model pretraining and downstream classification, land cover segmentation, and change detection, as part of a DARPA project.
+- Exploring variational inference and pretrained vision transformers (ViTs) for lifelong and continual learning.
+- Developing incremental object detection (IOD) algorithms using YOLO and vision-language models (VLMs).
+- Investigating uncertainty-aware fine-tuning of large language models (LLMs) for robust and reliable generalization.
 
 ## Graduate Teaching Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
