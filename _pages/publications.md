@@ -5,12 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<p>See my <a href="{{ site.author.googlescholar | escape }}">Google Scholar profile</a> for the latest publication list.</p>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% assign publication_groups = site.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% for group in publication_groups %}
+  <h2>{{ group.name }}</h2>
+  {% assign entries = group.items | sort: 'title' %}
+  {% for post in entries %}
+    {% include publication-single.html %}
+  {% endfor %}
 {% endfor %}

@@ -22,6 +22,7 @@ If the repository is private, GitHub Pages availability depends on the account p
 - `_pages/about.md`: homepage and research interests.
 - `_pages/experience.md`, `_pages/projects.md`, `_pages/cv.md`: portfolio content.
 - `_pages/teaching.html`: teaching experience.
+- `_publications/`: publication records, grouped by year on the Publications page. Add a Markdown file with `title`, `authors`, `year`, `venue`, `permalink`, and `source_url`; optionally include `paperurl`, `doi`, and `pages`.
 - `files/Resume__Kandel__Deepak.pdf`: downloadable resume.
 - `_layouts/`, `_includes/`, `_sass/`: templates and styling.
 

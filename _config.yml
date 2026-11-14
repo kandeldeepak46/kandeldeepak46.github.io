@@ -86,7 +86,7 @@ author:
   location         : "Rochester, New York"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"https://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=5bwvXp0AAAAJ&hl=en"
   email            : "dk6012@rit.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -124,7 +124,9 @@ include:
   - files
 exclude:
   - _posts
-  - _publications
+  - _publications/2009-10-01-paper-title-number-1.md
+  - _publications/2010-10-01-paper-title-number-2.md
+  - _publications/2015-10-01-paper-title-number-3.md
   - _portfolio
   - _teaching
   - _talks
@@ -140,7 +142,6 @@ exclude:
   - _pages/archive-layout-with-content.md
   - _pages/non-menu-page.md
   - _pages/portfolio.html
-  - _pages/publications.md
   - _pages/terms.md
   - _pages/talkmap.html
   - talkmap
@@ -200,7 +201,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   portfolio:
     output: false
@@ -212,6 +213,12 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: archive
+      author_profile: true
   # _posts
   - scope:
       path: ""

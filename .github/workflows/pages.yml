@@ -29,6 +29,7 @@ jobs:
         run: |
           test -s _site/index.html
           test -s _site/cv/index.html
+          test -s _site/publications/index.html
           test -s _site/projects/index.html
           test -s _site/experience/index.html
           test -s _site/teaching/index.html

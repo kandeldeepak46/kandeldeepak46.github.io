@@ -1,0 +1,9 @@
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <p>{{ post.authors | escape }}<br>
+    {% if post.venue != empty %}<em>{{ post.venue | escape }}</em>{% if post.pages %}, pp. {{ post.pages | escape }}{% endif %}.{% endif %}
+    {{ post.year }}</p>
+    <p>{% if post.paperurl %}<a href="{{ post.paperurl | escape }}">Paper</a> · {% endif %}<a href="{{ post.source_url | escape }}">Google Scholar</a></p>
+  </article>
+</div>
