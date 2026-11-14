@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340"><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#7c9aaa"/></marker></defs><rect width="720" height="340" fill="#f1f6f8"/><g font-family="Arial, Helvetica, sans-serif">
-<text x="36" y="42" font-size="12" font-weight="700" letter-spacing="2" fill="#0b7285">UNCERTAINTY-AWARE ADAPTATION</text>
-<path d="M224 157H270M454 157H500" stroke="#7c9aaa" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="36" y="102" width="188" height="112" rx="12" fill="#fff" stroke="#d2e0e8"/>
-<text x="130" y="143" text-anchor="middle" font-size="18" font-weight="700" fill="#102a43">Language model</text>
-<text x="130" y="174" text-anchor="middle" font-size="14" fill="#526d86">Pretrained weights</text>
-<rect x="278" y="88" width="176" height="140" rx="12" fill="#e3f0f2" stroke="#0b7285" stroke-width="1.5"/>
-<text x="366" y="123" text-anchor="middle" font-size="17" font-weight="700" fill="#0b7285">Probabilistic</text>
-<text x="366" y="147" text-anchor="middle" font-size="17" font-weight="700" fill="#0b7285">low-rank adapter</text>
-<path d="M318 192C330 192 337 166 350 166S370 192 386 192" stroke="#0b7285" stroke-width="2.5" fill="none"/>
-<text x="411" y="190" font-size="19" fill="#0b7285">μ, σ²</text>
-<rect x="508" y="102" width="176" height="112" rx="12" fill="#fff" stroke="#d2e0e8"/>
-<text x="596" y="143" text-anchor="middle" font-size="18" font-weight="700" fill="#102a43">Predictions</text>
-<text x="596" y="174" text-anchor="middle" font-size="14" fill="#526d86">+ uncertainty</text>
-<text x="360" y="274" text-anchor="middle" font-size="14" fill="#334e68">Propagating both the mean and uncertainty</text>
-<text x="36" y="315" font-size="11" fill="#6b8397">Conceptual overview · Probabilistic low-rank adaptation</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340"><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#7aa6ba"/></marker></defs><rect width="720" height="340" fill="#102137"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="36" y="42" font-size="12" font-weight="700" letter-spacing="2" fill="#5eead4">UNCERTAINTY-AWARE ADAPTATION</text>
+<path d="M224 157H270M454 157H500" stroke="#7aa6ba" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="36" y="102" width="188" height="112" rx="12" fill="#1d3551" stroke="#365875"/>
+<text x="130" y="143" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Language model</text>
+<text x="130" y="174" text-anchor="middle" font-size="14" fill="#b8c7d9">Pretrained weights</text>
+<rect x="278" y="88" width="176" height="140" rx="12" fill="#123541" stroke="#5eead4" stroke-width="1.5"/>
+<text x="366" y="123" text-anchor="middle" font-size="17" font-weight="700" fill="#5eead4">Probabilistic</text>
+<text x="366" y="147" text-anchor="middle" font-size="17" font-weight="700" fill="#5eead4">low-rank adapter</text>
+<path d="M318 192C330 192 337 166 350 166S370 192 386 192" stroke="#5eead4" stroke-width="2.5" fill="none"/>
+<text x="411" y="190" font-size="19" fill="#5eead4">μ, σ²</text>
+<rect x="508" y="102" width="176" height="112" rx="12" fill="#1d3551" stroke="#365875"/>
+<text x="596" y="143" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Predictions</text>
+<text x="596" y="174" text-anchor="middle" font-size="14" fill="#b8c7d9">+ uncertainty</text>
+<text x="360" y="274" text-anchor="middle" font-size="14" fill="#b8c7d9">Propagating both the mean and uncertainty</text>
+<text x="36" y="315" font-size="11" fill="#a9bed1">Conceptual overview · Probabilistic low-rank adaptation</text>
 </g></svg>
