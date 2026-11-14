@@ -16,6 +16,15 @@ Started August 2022; passed the qualifying examination in July 2023.
 
 Research in lifelong and continual learning with [Dr. Dimah Dera](https://www.rit.edu/directory/dxdcis-dimah-dera) at the [Multidisciplinary Vision Research Laboratory](https://www.rit.edu/science/multidisciplinary-vision-research-laboratory).
 
+**Bachelor’s Degree in Electronics & Communication Engineering**
+
+DoECE, Pulchowk Campus, Institute of Engineering, Tribhuvan University
+
+Lalitpur, Bagmati, Nepal · November 2015–September 2019
+
+- Merit-based four-year scholarship.
+- **Courses:** Artificial Intelligence, Calculus, Linear Algebra, Probability & Statistics, and Digital Signal Processing.
+
 ## Research Interests
 
 - Statistical machine learning, variational inference, and continual learning
