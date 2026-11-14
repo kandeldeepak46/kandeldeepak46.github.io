@@ -13,9 +13,9 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
-          {% if page.research_home %}<li class="masthead__menu-item"><a href="#contact">Contact</a></li>{% endif %}
+          <li class="masthead__menu-item"><a href="{{ '/' | relative_url }}#contact">Contact</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

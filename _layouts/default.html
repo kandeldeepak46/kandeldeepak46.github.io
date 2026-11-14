@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body{% if page.research_home %} class="research-landing"{% endif %}>
+  <body class="site-theme{% if page.research_home %} research-landing{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -20,12 +20,7 @@ layout: compress
 
     <div class="page__footer">
       <footer>
-        {% if page.research_home %}
-          {% include footer/research.html %}
-        {% else %}
-          {% include footer/custom.html %}
-          {% include footer.html %}
-        {% endif %}
+        {% include footer/research.html %}
       </footer>
     </div>
 
