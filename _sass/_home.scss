@@ -45,7 +45,7 @@
   .home-section-heading .home-eyebrow { margin-bottom: 10px; }
   .home-section-heading h2 { margin: 0 0 12px; font-size: 34px; letter-spacing: -.035em; line-height: 1.2; }
   .home-section-heading p:not(.home-eyebrow) { margin: 0; color: $site-copy; font-size: 17px; }
-  .home-directions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .home-directions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
   .home-directions article { padding: 28px; background: $site-surface; border: 1px solid $site-rule; border-radius: 7px; }
   .home-index { color: $site-accent; font-size: 13px; font-weight: 750; }
   .home-directions h3 { margin: 16px 0 12px; font-size: 21px; letter-spacing: -.025em; }

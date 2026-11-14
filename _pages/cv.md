@@ -27,8 +27,10 @@ Lalitpur, Bagmati, Nepal · November 2015–September 2019
 
 ## Research Interests
 
-- Statistical machine learning, variational inference, and continual learning
-- Computer vision, image classification, and object recognition
+- Bayesian Optimization
+- Hyperspectral Image Analysis
+- Uncertainty Quantification and Calibration of LLMs
+- Lifelong / Continual Learning
 
 ## Experience
 
