@@ -4,6 +4,7 @@
     <p>{{ post.authors | escape }}<br>
     {% if post.venue != empty %}<em>{{ post.venue | escape }}</em>{% if post.pages %}, pp. {{ post.pages | escape }}{% endif %}.{% endif %}
     {{ post.year }}</p>
-    <p>{% if post.paperurl %}<a href="{{ post.paperurl | escape }}">Paper</a> · {% endif %}<a href="{{ post.source_url | escape }}">Google Scholar</a></p>
+    {% if post.presentation %}<p><strong>{{ post.presentation | escape }}</strong></p>{% endif %}
+    <p>{% if post.paperurl %}<a href="{{ post.paperurl | escape }}">Paper</a> · {% endif %}<a href="{{ post.source_url | escape }}">{{ post.source_label | default: 'Google Scholar' | escape }}</a></p>
   </article>
 </div>
