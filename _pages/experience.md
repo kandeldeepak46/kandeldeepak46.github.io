@@ -13,6 +13,14 @@ author_profile: true
 - Developing incremental object detection (IOD) algorithms using YOLO and vision-language models (VLMs).
 - Investigating uncertainty-aware fine-tuning of large language models (LLMs) for robust and reliable generalization.
 
+## Machine Learning Scientist Intern
+**MRIMath Inc., Birmingham, AL, U.S.A.**
+
+- **Period:** May 2025 — Aug 2025
+- **Responsibilities:**
+  - Worked on medical image segmentation for metastatic brain tumors, organs at risk (OAR), and head and neck cancer.
+  - Applied parameter-efficient fine-tuning (PEFT) with an LLM adapter for brain tumor segmentation.
+
 ## Graduate Teaching Assistant
 **Rochester Institute of Technology, Rochester, NY, U.S.A.**
 

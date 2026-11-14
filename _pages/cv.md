@@ -28,6 +28,9 @@ Research in lifelong and continual learning with [Dr. Dimah Dera](https://www.ri
   - Exploring variational inference and pretrained vision transformers (ViTs) for lifelong and continual learning.
   - Developing incremental object detection (IOD) algorithms using YOLO and vision-language models (VLMs).
   - Investigating uncertainty-aware fine-tuning of large language models (LLMs) for robust and reliable generalization.
+- **Machine Learning Scientist Intern**, MRIMath Inc., Birmingham, AL, U.S.A., May–August 2025
+  - Worked on medical image segmentation for metastatic brain tumors, organs at risk (OAR), and head and neck cancer.
+  - Applied parameter-efficient fine-tuning (PEFT) with an LLM adapter for brain tumor segmentation.
 - **Graduate Teaching Assistant**, Rochester Institute of Technology, August 2022–May 2023: Probability & Statistics with Python and Fundamentals of Imaging Science.
 - **Machine Learning Engineer**, Evolve, December 2020–July 2022: demand forecasting, recommendation systems, and distribution route optimization.
 - **Data Scientist**, Docsumo, March 2020–December 2020
