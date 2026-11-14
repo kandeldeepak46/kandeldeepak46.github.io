@@ -39,6 +39,8 @@ body.research-landing {
   .home-hero { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 64px; align-items: start; padding: 96px 0; }
   .home-hero h1 { max-width: 740px; margin: 0 0 26px; font-size: clamp(42px, 4.8vw, 68px); font-weight: 780; letter-spacing: -.05em; line-height: 1.06; }
   .home-intro { max-width: 690px; margin: 0 0 30px; color: #334e68; font-size: 19px; line-height: 1.75; }
+  .home-availability { display: flex; align-items: center; gap: 12px; margin: 0 0 26px; padding: 15px 18px; background: #edf6f7; border: 1px solid #bfd9df; border-radius: 12px; color: #075766; font-size: 14px; font-weight: 650; line-height: 1.7; }
+  .home-availability-dot { flex-shrink: 0; width: 9px; height: 9px; border-radius: 50%; background: #f2aa23; }
   .home-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
   .home-button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 12px 20px; border: 1px solid transparent; border-radius: 5px; font-size: 14px; font-weight: 750; line-height: 1.5; text-decoration: none; }
   a.home-button-primary { background: #0b7285; color: #fff; box-shadow: 0 8px 24px rgba(11,114,133,.12); }
