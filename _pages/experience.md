@@ -35,7 +35,7 @@ author_profile: true
 
 - **Period:** Mar 2020 — Dec 2020
 - **Responsibilities:**
-  - Information retrieval from tax, invoice, and bill documents and digitization of non-digital PDF (bank statements, W2, & W9) forms using advanced OCR techniques
-  - Contributed to face recognition system for verification of documents with Indian driving license [KYC for banks and Insurance companies]
-  - Improving the image quality: skewness detection, correction, and enhancements with computer vision and image processing
-  - Developed and deployed the AI applications in Google Cloud Platforms
+  - Retrieved information from tax, invoice, and bill documents and digitized non-digital PDFs, bank statements, W2, and W9 forms using advanced OCR techniques.
+  - Contributed to a face recognition system for document verification using Indian driving licenses.
+  - Improved image quality through skewness detection, pixel correction, and enhancements using traditional filtering techniques and computer vision algorithms.
+  - Developed and deployed AI applications on Google Cloud Platform.

@@ -30,6 +30,10 @@ Research in lifelong and continual learning with [Dr. Dimah Dera](https://www.ri
   - Investigating uncertainty-aware fine-tuning of large language models (LLMs) for robust and reliable generalization.
 - **Graduate Teaching Assistant**, Rochester Institute of Technology, August 2022–May 2023: Probability & Statistics with Python and Fundamentals of Imaging Science.
 - **Machine Learning Engineer**, Evolve, December 2020–July 2022: demand forecasting, recommendation systems, and distribution route optimization.
-- **Data Scientist**, Docsumo, March 2020–December 2020: document information retrieval, OCR, image processing, and deployment on Google Cloud.
+- **Data Scientist**, Docsumo, March 2020–December 2020
+  - Retrieved information from tax, invoice, and bill documents and digitized non-digital PDFs, bank statements, W2, and W9 forms using advanced OCR techniques.
+  - Contributed to a face recognition system for document verification using Indian driving licenses.
+  - Improved image quality through skewness detection, pixel correction, and enhancements using traditional filtering techniques and computer vision algorithms.
+  - Developed and deployed AI applications on Google Cloud Platform.
 
 [Read more about my experience]({{ '/experience/' | relative_url }}).
