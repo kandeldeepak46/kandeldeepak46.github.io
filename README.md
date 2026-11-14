@@ -19,7 +19,7 @@ If the repository is private, GitHub Pages availability depends on the account p
 
 - `_config.yml`: site name, profile, social links, and site settings.
 - `_data/navigation.yml`: navigation links.
-- `_pages/about.md`: homepage and research interests.
+- `_pages/about.html`: homepage and research interests.
 - `_pages/experience.md`, `_pages/projects.md`, `_pages/cv.md`: portfolio content.
 - `_pages/teaching.html`: teaching experience.
 - `_publications/`: publication records, grouped by year on the Publications page. Add a Markdown file with `title`, `authors`, `year`, `venue`, `permalink`, and `source_url`; optionally include `paperurl`, `doi`, and `pages`.

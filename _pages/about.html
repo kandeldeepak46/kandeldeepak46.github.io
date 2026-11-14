@@ -1,0 +1,68 @@
+---
+layout: default
+permalink: /
+title: "Research"
+excerpt: "Deepak Kandel — continual learning, uncertainty quantification, and calibration for reliable AI."
+author_profile: false
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<main id="main-content" class="research-home">
+  <section class="home-hero" aria-labelledby="home-title">
+    <p class="home-eyebrow">Machine learning researcher <span aria-hidden="true">·</span> RIT</p>
+    <h1 id="home-title"><span>Continual learning.</span><span>Calibrated confidence.</span></h1>
+    <p class="home-intro">I’m an Imaging Science Ph.D. student at Rochester Institute of Technology working on <strong>continual learning, uncertainty quantification, and calibration.</strong> I develop Bayesian methods that help models retain knowledge, quantify uncertainty, and align their confidence with their accuracy as they adapt to new tasks.</p>
+    <div class="home-actions">
+      <a class="home-button home-button-primary" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+      <a class="home-button home-button-secondary" href="{{ '/cv/' | relative_url }}">View CV</a>
+      <a class="home-contact" href="mailto:{{ site.author.email | escape }}">Get in touch <span aria-hidden="true">↗</span></a>
+    </div>
+    <ul class="home-highlights" aria-label="Research highlights">
+      <li><a href="{{ '/publications/probabilistic-low-rank-moment-propagation/' | relative_url }}"><strong>MLSP 2026</strong><span>Oral + poster</span></a></li>
+      <li><a href="{{ '/publications/low-rank-bayesian-adaptation/' | relative_url }}"><strong>AAAI Symposium Series</strong><span>2026</span></a></li>
+      <li><a href="{{ '/publications/adaptive-robust-continual-learning/' | relative_url }}"><strong>FUSION</strong><span>2024</span></a></li>
+    </ul>
+  </section>
+
+  <section class="home-research" aria-labelledby="research-heading">
+    <p class="home-eyebrow">Research directions</p>
+    <h2 id="research-heading">Learning that lasts. Confidence you can assess.</h2>
+    <div class="home-directions">
+      <article>
+        <span class="home-index" aria-hidden="true">01</span>
+        <h3>Continual learning</h3>
+        <p>Helping models acquire new knowledge while preserving what they have learned, using variational inference and probabilistic mixtures of experts.</p>
+        <a href="{{ '/publications/probabilistic-mixture-of-experts/' | relative_url }}">Probabilistic mixture of experts <span aria-hidden="true">↗</span></a>
+      </article>
+      <article>
+        <span class="home-index" aria-hidden="true">02</span>
+        <h3>Uncertainty quantification</h3>
+        <p>Representing uncertainty in model parameters and propagating it through neural networks to support more reliable adaptation.</p>
+        <a href="{{ '/publications/adaptive-robust-continual-learning/' | relative_url }}">Bayesian uncertainty propagation <span aria-hidden="true">↗</span></a>
+      </article>
+      <article>
+        <span class="home-index" aria-hidden="true">03</span>
+        <h3>Calibration</h3>
+        <p>Studying how well predictive confidence reflects accuracy, with a focus on uncertainty-aware, parameter-efficient fine-tuning of large language models.</p>
+        <a href="{{ '/publications/probabilistic-low-rank-moment-propagation/' | relative_url }}">Probabilistic low-rank adaptation <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-profile" aria-labelledby="profile-heading">
+    <img src="{{ '/images/me.jpg' | relative_url }}" alt="Deepak Kandel" width="144" height="144" loading="lazy">
+    <div>
+      <p class="home-eyebrow">About me</p>
+      <h2 id="profile-heading">Deepak Kandel</h2>
+      <p>I work with <a href="https://www.rit.edu/directory/dxdcis-dimah-dera">Dr. Dimah Dera</a> at the <a href="https://www.rit.edu/science/multidisciplinary-vision-research-laboratory">Multidisciplinary Vision Research Laboratory</a>, Chester F. Carlson Center for Imaging Science, RIT. I started my Ph.D. in August 2022 and passed the qualifying examination in July 2023.</p>
+      <nav class="home-profile-links" aria-label="Research and professional profiles">
+        <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+        <a href="https://github.com/{{ site.author.github | escape }}">GitHub</a>
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}">LinkedIn</a>
+        <a href="{{ '/experience/' | relative_url }}">Experience</a>
+      </nav>
+    </div>
+  </section>
+</main>
