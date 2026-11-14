@@ -36,7 +36,7 @@ body.research-landing {
   h1, h2, h3 { color: #102a43; }
   .home-eyebrow { margin: 0 0 20px; color: #0b7285; font-size: 13px; font-weight: 750; line-height: 1.5; letter-spacing: .13em; text-transform: uppercase; }
 
-  .home-hero { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(260px, .8fr); gap: 72px; align-items: center; padding: 96px 0; }
+  .home-hero { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 64px; align-items: start; padding: 96px 0; }
   .home-hero h1 { max-width: 740px; margin: 0 0 26px; font-size: clamp(42px, 4.8vw, 68px); font-weight: 780; letter-spacing: -.05em; line-height: 1.06; }
   .home-intro { max-width: 690px; margin: 0 0 30px; color: #334e68; font-size: 19px; line-height: 1.75; }
   .home-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
@@ -54,7 +54,7 @@ body.research-landing {
   .home-highlights span { display: block; color: #0b7285; font-size: 11px; }
   .home-highlights a:hover { text-decoration: underline; }
 
-  .home-portrait { position: relative; margin: 0; }
+  .home-portrait { position: relative; width: 100%; max-width: 320px; margin: 42px 0 0; justify-self: end; }
   .home-portrait:before { position: absolute; top: -15px; right: -15px; width: 36%; height: 34%; border-radius: 6px; background: #f2aa23; content: ''; }
   .home-portrait-frame { position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 14px 40px rgba(16,42,67,.13); background: #edf3f5; }
   .home-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
@@ -102,7 +102,7 @@ body.research-landing {
   .home-contact-band .home-button { flex-shrink: 0; }
 
   @media (max-width: 1050px) {
-    .home-hero { gap: 38px; padding: 76px 0; grid-template-columns: minmax(0, 1.5fr) minmax(240px, .85fr); }
+    .home-hero { gap: 38px; padding: 76px 0; grid-template-columns: minmax(0, 1fr) 280px; }
     .home-hero h1 { font-size: 50px; }
     .home-intro { font-size: 17px; }
     .home-directions article { padding: 22px; }
@@ -112,7 +112,7 @@ body.research-landing {
   @media (max-width: 800px) {
     .home-hero { grid-template-columns: 1fr; gap: 42px; padding: 56px 0; }
     .home-hero h1 { max-width: 650px; font-size: clamp(40px, 7vw, 58px); }
-    .home-portrait { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 24px; align-items: end; max-width: 600px; }
+    .home-portrait { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 24px; align-items: end; max-width: 600px; margin-top: 0; justify-self: start; }
     .home-portrait:before { left: -10px; right: auto; top: -10px; width: 80px; height: 80px; }
     .home-portrait figcaption { margin: 0; }
     .home-directions { grid-template-columns: 1fr; }
