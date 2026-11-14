@@ -1,0 +1,10 @@
+<div class="home-footer-top">
+  <div><p class="home-footer-name">{{ site.author.name }}</p><p class="home-footer-tagline">Continual learning, uncertainty, and reliable machine learning.</p></div>
+  <nav class="home-footer-links" aria-label="Professional profiles">
+    <a href="mailto:{{ site.author.email | escape }}">Email</a>
+    <a href="{{ site.author.googlescholar | escape }}">Google Scholar</a>
+    <a href="https://github.com/{{ site.author.github | escape }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin | escape }}">LinkedIn</a>
+  </nav>
+</div>
+<div class="home-footer-copyright">© {{ site.time | date: '%Y' }} {{ site.author.name }}.</div>
