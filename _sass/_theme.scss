@@ -7,3 +7,61 @@ $site-accent: #5eead4;
 $site-accent-hover: #99f6e4;
 $site-rule: #2b405a;
 
+/* Runtime palettes allow theme changes without reloading the page. */
+:root {
+  color-scheme: dark;
+  background: var(--site-bg);
+  --site-bg: #0b172a;
+  --site-surface: #14263d;
+  --site-title: #f1f5f9;
+  --site-copy: #b8c7d9;
+  --site-accent: #5eead4;
+  --site-accent-hover: #99f6e4;
+  --site-rule: #2b405a;
+  --site-raised: #203752;
+  --site-field-border: #49617a;
+  --site-nav-bg: rgba(11,23,42,.97);
+  --site-banner-bg: #123541;
+  --site-banner-border: #29606c;
+  --site-banner-copy: #b6f3e9;
+  --site-code-bg: #102137;
+  --site-muted-code: #a9bed1;
+  --site-string: #b6f3e9;
+  --site-number: #f2c879;
+  --site-row-hover: rgba(20,38,61,.55);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --site-bg: #ffffff;
+  --site-surface: #f3f7f9;
+  --site-title: #102a43;
+  --site-copy: #334e68;
+  --site-accent: #0b7285;
+  --site-accent-hover: #075362;
+  --site-rule: #d9e2ec;
+  --site-raised: #e6f0f2;
+  --site-field-border: #bacbd9;
+  --site-nav-bg: rgba(255,255,255,.97);
+  --site-banner-bg: #edf6f7;
+  --site-banner-border: #bfd9df;
+  --site-banner-copy: #075766;
+  --site-code-bg: #edf2f6;
+  --site-muted-code: #52677b;
+  --site-string: #075766;
+  --site-number: #855400;
+  --site-row-hover: rgba(230,240,242,.55);
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+    background: #fff;
+    --site-bg: #fff;
+    --site-surface: #fff;
+    --site-title: #102a43;
+    --site-copy: #334e68;
+    --site-accent: #075766;
+    --site-rule: #ccd6df;
+  }
+}
