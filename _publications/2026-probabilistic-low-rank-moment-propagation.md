@@ -6,7 +6,7 @@ year: 2026
 presentation: "Oral + poster"
 collection: "publications"
 permalink: "/publications/probabilistic-low-rank-moment-propagation/"
-paperurl: "https://openreview.net/forum?id=CyqvyJqojo"
+paperurl: "https://ieeexplore.ieee.org/document/11772608"
 source_url: "https://neuroneural.net/mlsp2026schedule/#paper-106"
 source_label: "Conference schedule"
 ---
@@ -22,4 +22,4 @@ Both presentations took place on September 29, 2026. Times below are in Eastern 
 - **Oral Session 1:** 11:45 a.m.–12:00 p.m. (talk 6).
 - **Poster Session 1:** 4:00–6:00 p.m.
 
-[View paper on OpenReview](https://openreview.net/forum?id=CyqvyJqojo) · [View conference schedule](https://neuroneural.net/mlsp2026schedule/#paper-106).
+[View paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11772608) · [View paper on OpenReview](https://openreview.net/forum?id=CyqvyJqojo) · [View conference schedule](https://neuroneural.net/mlsp2026schedule/#paper-106).
