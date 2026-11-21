@@ -46,7 +46,7 @@ body.site-theme {
   .sidebar { color: var(--site-copy); }
   .sidebar .author__name { color: var(--site-title); }
   .sidebar .social-icons i { color: var(--site-accent); }
-  .author__avatar img { border-color: var(--site-rule); }
+  .author__avatar img { border-color: var(--site-rule); aspect-ratio: 1; object-fit: cover; object-position: center 25%; }
   .author__urls:before { border-color: var(--site-rule) transparent; }
   .author__urls a:hover { color: var(--site-accent); }
   .btn { color: var(--site-bg) !important; background-color: var(--site-accent); }

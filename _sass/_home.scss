@@ -37,7 +37,7 @@
   .home-portrait { position: relative; width: 100%; max-width: 320px; margin: 42px 0 0; justify-self: end; }
   .home-portrait:before { position: absolute; top: -15px; right: -15px; width: 36%; height: 34%; border-radius: 6px; background: #f2aa23; content: ''; }
   .home-portrait-frame { position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 14px 40px rgba(0,0,0,.3); background: var(--site-surface); }
-  .home-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+  .home-portrait img { display: block; width: 100%; height: auto; }
   .home-portrait figcaption { margin: 18px 0 0; color: var(--site-copy); font-size: 13px; line-height: 1.65; }
 
   .home-section { padding: 76px 0; border-top: 1px solid var(--site-rule); }
