@@ -37,8 +37,8 @@ Lalitpur, Bagmati, Nepal · November 2015–September 2019
 - **Graduate Research Assistant**, Rochester Institute of Technology
   - Developing static and temporal hyperspectral image analysis algorithms using masked autoencoders (MAEs) for large-scale foundation model pretraining and downstream classification, land cover segmentation, and change detection, as part of a DARPA project.
   - Exploring variational inference and pretrained vision transformers (ViTs) for lifelong and continual learning.
-  - Developing incremental object detection (IOD) algorithms using YOLO and vision-language models (VLMs).
-  - Investigating uncertainty-aware fine-tuning of large language models (LLMs) for robust and reliable generalization.
+  - Developing real-time incremental object detection (IOD) algorithms using YOLO and vision-language models (VLMs).
+  - Investigating uncertainty-aware parameter-efficient fine-tuning (PEFT) of large language models (LLMs) and vision transformers (ViT) for robust and reliable downstream generalization.
 - **Machine Learning Scientist Intern**, MRIMath Inc., Birmingham, AL, U.S.A., May–August 2025
   - Worked on medical image segmentation for metastatic brain tumors, organs at risk (OAR), and head and neck cancer.
   - Applied parameter-efficient fine-tuning (PEFT) with an LLM adapter for brain tumor segmentation.
